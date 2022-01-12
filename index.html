@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+<!-- <link rel="stylesheet" href="build/css/styles.css"> -->
+<link rel="stylesheet" href="build/css/cafetime.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="shortcut icon" href="img/favicon.ico">
+
+  <title>CafeTime</title>
+</head>
+<body>
+
+  <header class=" container header">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <span class="text-primary">CafeTime</span>
+        <h1 class="display-2">Disfruta, el cafe del momento</h1>
+        <p class="fs-3">Visita nuestros locales y difruta el placer del mejor café en compañía de tus amigos</p>
+        <a href="#" class="btn btn-primary">Conoce más</a>
+
+      </div>
+
+
+      <div class="col-md-6"> <img class="img-fluid" src="img/header.jpg" alt="imagen de cafe time header">
+
+      </div>
+    </div>
+
+  </header>
+
+
+<section class="container">
+  <h2 class="fs-1 text-center">Nuestros Productos</h2>
+  <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá.</p>
+  
+  <div class="row">
+    <div class="col-md-4">
+      <figure>
+        <img class="img-fluid" src="img/figura3.png" alt="imagen de pastel de chocolate">
+      </figure>
+      <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary mb-5 mx-5" data-mdb-toggle="modal" data-mdb-target="#modal1"> Pastel de chocolate </button>
+
+      <p class="text-center">El pastel de chocolate fundido es un postre popular que combina los elementos de un pastel de chocolate sin harina y un suflé. Otros nombres utilizados son pudín de chocolate fondant, torta de chocolate de lava y volcán de chocolate.</p>
+    </div>
+
+    <div class="col-md-4">
+      <figure>
+        <img class="img-fluid" src="img/figura4.png" alt="imagen de tiramisu">
+      </figure>
+      <button type="button" class="btn btn-primary mb-5  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Tiramisú </button>
+      <p class="text-center">El tiramisú es un postre italiano muy popular a nivel internacional hecho a partir de un ingrediente sólido y seco humedecido en café, una crema preparada a partir de huevos batidos y azúcar que se extiende sobre los anteriores ingredientes y cacao espolvoreado por encima. </p>
+    </div>
+
+
+    <div class="col-md-4">
+      <figure>
+        <img class="img-fluid" src="img/figura2.png" alt="imagen de taza de cafe">
+      </figure>
+      <button type="button" class="btn btn-primary mb-5 mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Cafe</button>
+      <p class="text-center">El café es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto); es altamente estimulante por su contenido de cafeína,​ una sustancia psicoactiva.</p>
+    </div>
+
+
+
+  </div>
+
+
+<!-- 
+  <div class="d-flex justify-content-center my-5">
+    <a href="#" class="btn btn-secondary text-white">Más Información </a>
+  </div> -->
+
+
+</section>
+
+<main class="container locales my-5">
+  <div class="d-flex justify-content-between">
+    <h2>Nuestros locales</h2>
+  </div>
+
+  <div class="row mt-4">
+    <!--CARD-->
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img class="card-img-top" src="img/photo1jpg.jpeg" alt="">
+        <div class="card-body">
+          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
+          <button type="button" class="btn btn-primary  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Antofagasta </button>
+          <p class="card-text decripcion">Amplia variedad de productos y ubicado en el centro de la ciudad </p> 
+          
+  
+  
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img class="card-img-top" src="img/local4.jpeg" alt="">
+        <div class="card-body">
+          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
+          <button type="button" class="btn btn-primary  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> La Serena </button>
+          <p class="card-text decripcion">Amplios espacios y con vista al mar</p> 
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img class="card-img-top" src="img/local2.jpeg" alt="">
+        <div class="card-body">
+          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
+          <button type="button" class="btn btn-secondary mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Valdivia</button>
+<p class="card-text decripcion">A minutos del río y horario continuado</p> 
+          
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card">
+        <img class="card-img-top" src="img/UC8A1855-HDR-1.jpeg" alt="">
+        <div class="card-body">
+         <!-- Button trigger modal -->
+         <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
+         <button type="button" class="btn btn-primary mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Puerto Varas </button>
+          <p class="card-text decripcion">Un lugar acogedor a pasos del lago</p> 
+          
+        </div>
+
+      </div>
+    </div>
+    <!-- /--CARDS-- -->
+
+  </div>
+
+  <!-- Row de las cards -->
+  
+  <!-- aplicaciones moviles  -->
+  <section class="app-movil container mt-5 ">
+    <div class="row">
+      <div class= "offset-md-4 col-md-4">
+        <span class="d-block mx-auto text-primary">CafeTime</span>
+        <p class="text-center fw-bold mt-5 fs-4">Mantente conectado. Descarga CafeTime App</p>
+        <div class="d-flex gap-4">
+          <div class="col mb-5">
+            <a href="#">
+              <img class="img-fluid" src="img/imageneslocales/svg/tienda-android.svg" alt="logo android">
+            </a>
+
+          </div>
+
+          <div class="col mb-5">
+            <a href="#">
+              <img class="img-fluid" src="img/imageneslocales/svg/tienda-apple.svg" alt="logo apple">
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+  <!-- aplicaciones moviles  -->
+
+</main>
+ 
+ <!-- Footer -->
+<footer class="bg-brown text-center text-black">
+  <!-- Grid container -->
+  <div class="container p-4  background-color-black">
+   
+    <!-- Section: Links -->
+    <section class="">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase ">Descubrir</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Grupos</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Calendarios</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Ofertas</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Promociones</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">CafeTime</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Acerca de</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Blog</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Descuentos</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Ciudades</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Novedades</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Locales</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Mapa</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Redes sociales</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Otros</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Recomendaciones</h5>
+
+          <ul class="list-unstyled mb-0">
+            <li>
+              <a href="#!" class="text-black">Convenios</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Festivales</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Feriados</a>
+            </li>
+            <li>
+              <a href="#!" class="text-black">Concursos</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </section>
+    <!-- Section: Links -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: #743c20">
+    © 2020 Copyright:
+    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+<!-- Footer -->
+
+<!-- modal 1 -->
+<div  class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Ingredientes <br> Pastel de Chocolate</h5>
+      </div>
+      <div class="modal-body">
+        1 1/2 Barras de Mantequilla a temperatura ambiente (90 g c/u) <br>
+        1 Lata de Leche Condensada <br>
+        3 Huevos<br>
+        1 1/2 Tazas de Harina de trigo<br>
+        1 Cucharadita de Polvo para hornear<br>
+        1 1/2 Barras de Chocolate semiamargo fundido (150 g c/u)<br>
+        3 Envases de Media Crema (190 g c/u)<br>
+        3 Barras de Chocolate semiamargo en trozos (150 g c/u)</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 1 -->
+
+<!-- modal 2 -->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Ingredientes <br> Tiramisú</h5>
+      </div>
+      <div class="modal-body">
+        500 ml de agua<br>
+4 cucharadas colmadas de café granulado<br>
+5 cucharadas de amaretto (o a gusto)<br>
+1 cucharada de azúcar<br>
+4 yemas de huevo<br>
+250g de azúcar flor<br>
+1 queso crema<br>
+100g de crema de leche<br>
+500 ml de crema para batir muy fría<br>
+500g de galletas de champaña<br>
+Chocolate en Polvo Gourmet para espolvorear</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 2 -->
+
+<!-- modal 3 -->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Variedades de Café</h5>
+      </div>
+      <div class="modal-body">
+        Café expreso: intenso y solo <br>
+        Café americano: rebajado con agua <br>
+        Macchiato: espumoso<br>
+        Café espresso panna: solo y con nata <br>
+        Café doble: el doble de intensidad <br>
+        Cortado: poquita leche, que el protagonista sea el café <br>
+        Café con leche: un clásico de mitad y mitad</div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 3 -->
+
+<!-- modal 4 -->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Antofagasta</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/qiming-chen-lzCH2_8qRH8-unsplash.jpg" alt="cafeteria">
+        <p>Visitanos!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 4 -->
+
+<!-- modal 5 -->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">La Serena</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/shawnanggg-nmpW_WwwVSc-unsplash.jpg" alt="cafeteria">
+        <p>Visitanos!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 5 -->
+
+<!-- modal 6-->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Valdivia</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/simon-karemann-p85-MG66GRY-unsplash.jpg" alt="cafeteria">
+        <p>Visitanos!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 6 -->
+
+<!-- modal 7 -->
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1">Puerto Varas</h5>
+      </div>
+      <div class="modal-body">
+        <img src="img/UC8A1855-HDR-1.jpeg" alt="cafeteria">
+        <p>Visitanos!</p>
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+          Cerrar
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- modal 7-->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

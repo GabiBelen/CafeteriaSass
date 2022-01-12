@@ -1,0 +1,26 @@
+$cafe: #743c20;
+$cafeClaro: #92624a;
+
+
+// asignar a la paleta de colores de bootstrap
+$primary: $cafe;
+$secondary: $cafeClaro;
+
+
+//tipografia
+$display-font-weight: 900;
+$heading-font-weight: 700;
+
+
+
+//card
+$card-border-color: transparent; //transparent es para borrar las lineas de los bordes
+
+
+// navLink
+$nav-link-padding-x: 0;
+$nav-link-color: $gris; 
+
+
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

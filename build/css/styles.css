@@ -1,0 +1,22 @@
+/* Error: Undefined variable.
+ *    ,
+ * 22 | $nav-link-color: $gris; 
+ *    |                  ^^^^^
+ *    '
+ *   src\scss\_custom.scss 22:18       @use
+ *   src\scss\header\_header.scss 1:1  @forward
+ *   src\scss\header\_index.scss 1:1   @use
+ *   src\scss\styles.scss 1:1          root stylesheet */
+ @use 'header'; // solo carpeta
+ @use 'contenido'; // solo carpeta
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 22 \2502  $nav-link-color: $gris; \d\a    \2502                   ^^^^^\a    \2575 \a   src\\scss\\_custom.scss 22:18       @use\a   src\\scss\\header\\_header.scss 1:1  @forward\a   src\\scss\\header\\_index.scss 1:1   @use\a   src\\scss\\styles.scss 1:1          root stylesheet";
+}

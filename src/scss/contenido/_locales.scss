@@ -1,0 +1,16 @@
+.locales {  //esto diferencia el css normal
+  .card {
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  img {
+    border-radius: .5rem;
+  }
+
+  .horarios {
+    color: #877457;
+  }
+ 
+}

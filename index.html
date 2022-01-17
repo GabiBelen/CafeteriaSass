@@ -45,8 +45,9 @@
       <figure>
         <img class="img-fluid" src="img/figura3.png" alt="imagen de pastel de chocolate">
       </figure>
+
       <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary mb-5 mx-5" data-mdb-toggle="modal" data-mdb-target="#modal1"> Pastel de chocolate </button>
+<button type="button" class="btn btn-primary mb-5 mx-5" data-bs-toggle="modal" data-bs-target="#modal1"> Pastel de chocolate </button>
 
       <p class="text-center">El pastel de chocolate fundido es un postre popular que combina los elementos de un pastel de chocolate sin harina y un suflé. Otros nombres utilizados son pudín de chocolate fondant, torta de chocolate de lava y volcán de chocolate.</p>
     </div>
@@ -55,7 +56,7 @@
       <figure>
         <img class="img-fluid" src="img/figura4.png" alt="imagen de tiramisu">
       </figure>
-      <button type="button" class="btn btn-primary mb-5  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Tiramisú </button>
+      <button type="button" class="btn btn-primary mb-5  mx-5" data-bs-toggle="modal" data-bs-target="#modal2"> Tiramisú </button>
       <p class="text-center">El tiramisú es un postre italiano muy popular a nivel internacional hecho a partir de un ingrediente sólido y seco humedecido en café, una crema preparada a partir de huevos batidos y azúcar que se extiende sobre los anteriores ingredientes y cacao espolvoreado por encima. </p>
     </div>
 
@@ -64,7 +65,7 @@
       <figure>
         <img class="img-fluid" src="img/figura2.png" alt="imagen de taza de cafe">
       </figure>
-      <button type="button" class="btn btn-primary mb-5 mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Cafe</button>
+      <button type="button" class="btn btn-primary mb-5 mx-5" data-bs-toggle="modal" data-bs-target="#modal3"> Cafe</button>
       <p class="text-center">El café es la bebida que se obtiene a partir de los granos tostados y molidos de los frutos de la planta del café (cafeto); es altamente estimulante por su contenido de cafeína,​ una sustancia psicoactiva.</p>
     </div>
 
@@ -93,9 +94,9 @@
       <div class="card">
         <img class="card-img-top" src="img/photo1jpg.jpeg" alt="">
         <div class="card-body">
-          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
-          <button type="button" class="btn btn-primary  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Antofagasta </button>
-          <p class="card-text decripcion">Amplia variedad de productos y ubicado en el centro de la ciudad </p> 
+          <button type="button" class="btn btn-primary  mx-5 mb-4" data-bs-toggle="modal" data-bs-target="#modal4"> Antofagasta </button>
+          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>          
+          <p class="card-text decripcion">¡Ubicado en el centro de la ciudad! </p> 
           
   
   
@@ -109,9 +110,10 @@
       <div class="card">
         <img class="card-img-top" src="img/local4.jpeg" alt="">
         <div class="card-body">
+          <button type="button" class="btn btn-primary  mx-5 mb-4" data-bs-toggle="modal" data-bs-target="#modal5"> La Serena </button>
           <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
-          <button type="button" class="btn btn-primary  mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> La Serena </button>
-          <p class="card-text decripcion">Amplios espacios y con vista al mar</p> 
+          
+          <p class="card-text decripcion">¡Amplios espacios y con vista al mar!</p> 
           
         </div>
 
@@ -122,9 +124,10 @@
       <div class="card">
         <img class="card-img-top" src="img/local2.jpeg" alt="">
         <div class="card-body">
+          <button type="button" class="btn btn-secondary mx-5 mb-4" data-bs-toggle="modal" data-bs-target="#modal6"> Valdivia</button>
           <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
-          <button type="button" class="btn btn-secondary mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Valdivia</button>
-<p class="card-text decripcion">A minutos del río y horario continuado</p> 
+        
+<p class="card-text decripcion">¡Vista al río, una gran experiencia!</p> 
           
         </div>
 
@@ -136,9 +139,10 @@
         <img class="card-img-top" src="img/UC8A1855-HDR-1.jpeg" alt="">
         <div class="card-body">
          <!-- Button trigger modal -->
+         <button type="button" class="btn btn-primary mx-5 mb-4" data-bs-toggle="modal" data-bs-target="#modal7"> Puerto Varas </button>
          <p class="card-text fw-bold horarios">Lu a Vi, desde 10:00 a 22:00 hrs</p>
-         <button type="button" class="btn btn-primary mx-5" data-mdb-toggle="modal" data-mdb-target="#exampleModal"> Puerto Varas </button>
-          <p class="card-text decripcion">Un lugar acogedor a pasos del lago</p> 
+        
+          <p class="card-text decripcion">¡Un lugar acogedor a pasos del lago!</p> 
           
         </div>
 
@@ -291,8 +295,8 @@
 <!-- Footer -->
 
 <!-- modal 1 -->
-<div  class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="modal1">Ingredientes <br> Pastel de Chocolate</h5>
@@ -307,7 +311,7 @@
         3 Envases de Media Crema (190 g c/u)<br>
         3 Barras de Chocolate semiamargo en trozos (150 g c/u)</div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -317,8 +321,8 @@
 <!-- modal 1 -->
 
 <!-- modal 2 -->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="modal1">Ingredientes <br> Tiramisú</h5>
@@ -336,7 +340,7 @@
 500g de galletas de champaña<br>
 Chocolate en Polvo Gourmet para espolvorear</div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -346,11 +350,11 @@ Chocolate en Polvo Gourmet para espolvorear</div>
 <!-- modal 2 -->
 
 <!-- modal 3 -->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal1">Variedades de Café</h5>
+        <h5 class="modal-title" id="modal3">Variedades de Café</h5>
       </div>
       <div class="modal-body">
         Café expreso: intenso y solo <br>
@@ -361,7 +365,7 @@ Chocolate en Polvo Gourmet para espolvorear</div>
         Cortado: poquita leche, que el protagonista sea el café <br>
         Café con leche: un clásico de mitad y mitad</div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -371,19 +375,19 @@ Chocolate en Polvo Gourmet para espolvorear</div>
 <!-- modal 3 -->
 
 <!-- modal 4 -->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal1">Antofagasta</h5>
+        <h5 class="modal-title" id="modal4">Antofagasta</h5>
       </div>
-      <div class="modal-body">
-        <img src="img/qiming-chen-lzCH2_8qRH8-unsplash.jpg" alt="cafeteria">
-        <p>Visitanos!</p>
+      <div class="modal-body img-fluid">
+        <img src="img/qiming-chen-lzCH2_8qRH8-unsplash.jpg" width="400"  alt="cafeteria">
+        <p class="mt-4">Visitanos!</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -393,19 +397,19 @@ Chocolate en Polvo Gourmet para espolvorear</div>
 <!-- modal 4 -->
 
 <!-- modal 5 -->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5" >
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal1">La Serena</h5>
+        <h5 class="modal-title" id="modal5">La Serena</h5>
       </div>
       <div class="modal-body">
-        <img src="img/shawnanggg-nmpW_WwwVSc-unsplash.jpg" alt="cafeteria">
-        <p>Visitanos!</p>
+        <img src="img/shawnanggg-nmpW_WwwVSc-unsplash.jpg" width="400" alt="cafeteria">
+        <p class="mt-4">Visitanos!</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -415,19 +419,19 @@ Chocolate en Polvo Gourmet para espolvorear</div>
 <!-- modal 5 -->
 
 <!-- modal 6-->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
+<div  class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6">
+  <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="modal1">Valdivia</h5>
       </div>
       <div class="modal-body">
-        <img src="img/simon-karemann-p85-MG66GRY-unsplash.jpg" alt="cafeteria">
-        <p>Visitanos!</p>
+        <img src="img/simon-karemann-p85-MG66GRY-unsplash.jpg" width="300" alt="cafeteria">
+        <p class="mt-4">Visitanos!</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
@@ -437,19 +441,20 @@ Chocolate en Polvo Gourmet para espolvorear</div>
 <!-- modal 6 -->
 
 <!-- modal 7 -->
-<div  class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2" aria-hidden="true" >
-  <div class="modal-dialog">
-    <div class="modal-content">
+<div  class="modal fade" id="modal7" tabindex="-1" aria-labelledby="modal7">
+  <!-- Vertically centered modal -->
+<div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="modal1">Puerto Varas</h5>
+        <h5 class="modal-title" id="modal7">Puerto Varas</h5>
       </div>
-      <div class="modal-body">
-        <img src="img/UC8A1855-HDR-1.jpeg" alt="cafeteria">
-        <p>Visitanos!</p>
+      <div class="modal-body" >
+        <img src="img/UC8A1855-HDR-1.jpeg" width="400" alt="cafeteria">
+        <p class="mt-4">Visitanos!</p>
 
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-mdb-dismiss="modal">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
           Cerrar
         </button>
       </div>
